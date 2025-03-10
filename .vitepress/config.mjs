@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "FlexForm",
   description: "none",
-  base: '/repo/',
+  base: '/base/',
   outDir: '.vitepress/dist',
 
   themeConfig: {
