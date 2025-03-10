@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "FlexForm",
   description: "none",
-  base: '/vite-deploy-demo/',
+  base: './',
   outDir: '.vitepress/dist', // Папка билда в корне проекта
 
   themeConfig: {
