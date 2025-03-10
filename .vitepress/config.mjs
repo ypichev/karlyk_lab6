@@ -5,7 +5,7 @@ export default defineConfig({
   title: "FlexForm",
   description: "none",
   base: '/repo/',
-  outDir: 'docs/.vitepress/dist', // Папка билда в корне проекта
+  outDir: '.vitepress/dist', // Папка билда в корне проекта
 
   themeConfig: {
     nav: [
