@@ -5,8 +5,9 @@ export default defineConfig({
   title: "FlexForm",
   description: "none",
   base: '/repo/',
+  outDir: 'docs/.vitepress/dist', // Папка билда в корне проекта
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Головна", link: "/" },
       { text: "Зміст", link: "/zmist" },
@@ -16,14 +17,14 @@ export default defineConfig({
     sidebar: [
       { text: 'Головна', link: '/' },
       { text: 'Зміст', link: '/zmist' },
-      { text: 'Аналіз предметної області', link: '/analysis.md' },
+      { text: 'Аналіз предметної області', link: '/analysis' },
       { text: 'Призначення розроблюваної системи', link: '/appointment' },
-      { text: 'Аналіз зацікавлених осіб для системи організації та управління опитуваннями експертів', link: '/interested_parties.md' },
+      { text: 'Аналіз зацікавлених осіб для системи організації та управління опитуваннями експертів', link: '/interested_parties' },
       { text: 'Автори', link: '/autors' },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/yourusername/yourrepo' }
     ]
   }
 })
