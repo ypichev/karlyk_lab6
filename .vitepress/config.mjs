@@ -24,7 +24,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourusername/yourrepo' }
+      { icon: 'github', link: 'https://github.com/varshavskiy05/db_lab1.git' }
     ]
   }
 })
