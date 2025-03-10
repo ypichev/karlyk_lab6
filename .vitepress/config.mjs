@@ -5,7 +5,6 @@ export default defineConfig({
   title: "FlexForm",
   description: "none",
   base: '/db_lab1/',
-  outDir: '.vitepress/dist',
 
   themeConfig: {
     nav: [
