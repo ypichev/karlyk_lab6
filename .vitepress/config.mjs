@@ -5,22 +5,22 @@ export default defineConfig({
   title: "FlexForm",
   description: "none",
   base: '/repo/',
-  outDir: '.vitepress/dist', // Папка билда в корне проекта
+  outDir: '.vitepress/dist',
 
   themeConfig: {
     nav: [
       { text: "Головна", link: "/" },
-      { text: "Зміст", link: "/zmist" },
-      { text: "Автори", link: "/autors" },
+      { text: "Зміст", link: "/repo/zmist" },
+      { text: "Автори", link: "/repo/autors" },
     ],
 
     sidebar: [
       { text: 'Головна', link: '/' },
-      { text: 'Зміст', link: '/zmist' },
-      { text: 'Аналіз предметної області', link: '/analysis' },
-      { text: 'Призначення розроблюваної системи', link: '/appointment' },
-      { text: 'Аналіз зацікавлених осіб для системи організації та управління опитуваннями експертів', link: '/interested_parties' },
-      { text: 'Автори', link: '/autors' },
+      { text: 'Зміст', link: '/repo/zmist' },
+      { text: 'Аналіз предметної області', link: '/repo/analysis' },
+      { text: 'Призначення розроблюваної системи', link: '/repo/appointment' },
+      { text: 'Аналіз зацікавлених осіб для системи організації та управління опитуваннями експертів', link: '/repo/interested_parties' },
+      { text: 'Автори', link: '/repo/autors' },
     ],
 
     socialLinks: [
