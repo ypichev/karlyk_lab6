@@ -19,8 +19,9 @@ export default defineConfig({
       { text: 'Аналіз предметної області', link: '/analysis' },
       { text: 'Призначення розроблюваної системи', link: '/appointment' },
       { text: 'Аналіз зацікавлених осіб для системи організації та управління опитуваннями експертів', link: '/interested_parties' },
-      { text: 'Автори', link: '/autors' },
+      { text: 'Розробка загальної діаграми прецедентів', link: '/prētsedentiv'},
       { text: 'UseCase', link: '/useCase'},
+      { text: 'Автори', link: '/autors' },
     ],
 
     socialLinks: [
