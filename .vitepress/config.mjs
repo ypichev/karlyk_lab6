@@ -20,6 +20,7 @@ export default defineConfig({
       { text: 'Призначення розроблюваної системи', link: '/appointment' },
       { text: 'Аналіз зацікавлених осіб для системи організації та управління опитуваннями експертів', link: '/interested_parties' },
       { text: 'Розробка загальної діаграми прецедентів', link: '/prētsedentiv'},
+      { text: 'Реляційна схема', link: '/relational_schema'}  
       { text: 'UseCase', link: '/useCase'},
       { text: 'Автори', link: '/autors' },
     ],
