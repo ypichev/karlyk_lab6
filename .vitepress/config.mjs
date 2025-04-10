@@ -22,6 +22,7 @@ export default defineConfig({
       { text: 'Розробка загальної діаграми прецедентів', link: '/prētsedentiv'},
       { text: 'Реляційна схема', link: '/relational_schema'},  
       { text: 'UseCase', link: '/useCase'},
+      { text: 'Бізнес модель та діаграма системи опитування', link: '/business_models'},
       { text: 'Автори', link: '/autors' },
     ],
 
