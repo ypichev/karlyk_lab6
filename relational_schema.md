@@ -31,12 +31,12 @@
 | submitted_at   | TIMESTAMP      | DEFAULT NOW()|
 
 ### Відповіді на питання (`answers`)
-| Поле           | Тип даних      | Ключ         |
-|----------------|----------------|--------------|
-| id             | SERIAL         | PRIMARY KEY  |
-| response_id    | INT            | FOREIGN KEY  |
-| question_id    | INT            | FOREIGN KEY  |
-| content        | TEXT           |              |
+| Поле           | Тип даних      | Ключ        |
+|----------------|----------------|-------------|
+| id             | SERIAL         | PRIMARY KEY |
+| response_id    | INT            | FOREIGN KEY |
+| question_id    | INT            | FOREIGN KEY |
+| content        | TEXT           |             |
 
 ### SQL-таблиці (DDL)
 
