@@ -1,5 +1,5 @@
 # Реляційна схема
-### Форма (`forms`)
+## Форма (`forms`)
 | Поле           | Тип даних      | Ключ         |
 |----------------|----------------|--------------|
 | id             | SERIAL         | PRIMARY KEY  |
@@ -7,7 +7,7 @@
 | description    | TEXT           |              |
 | created_at     | TIMESTAMP      | DEFAULT NOW()|
 
-### Питання (`questions`)
+## Питання (`questions`)
 | Поле           | Тип даних      | Ключ         |
 |----------------|----------------|--------------|
 | id             | SERIAL         | PRIMARY KEY  |
@@ -16,21 +16,21 @@
 | question_type  | VARCHAR(50)    | NOT NULL     |
 | is_required    | BOOLEAN        | DEFAULT FALSE|
 
-### Option (для питань типу "вибір")
+## Option (для питань типу "вибір")
 | Назва поля | Тип даних  | Ключ          |
 |------------|------------|---------------|
 | option_id  | INTEGER    | PRIMARY KEY   |
 | question_id| INTEGER    | FK → Question |
 | text       | VARCHAR    |               |
 
-### Відповіді (`responses`)
+## Відповіді (`responses`)
 | Поле           | Тип даних      | Ключ         |
 |----------------|----------------|--------------|
 | id             | SERIAL         | PRIMARY KEY  |
 | form_id        | INT            | FOREIGN KEY  |
 | submitted_at   | TIMESTAMP      | DEFAULT NOW()|
 
-### Відповіді на питання (`answers`)
+## Відповіді на питання (`answers`)
 | Поле           | Тип даних      | Ключ        |
 |----------------|----------------|-------------|
 | id             | SERIAL         | PRIMARY KEY |
@@ -38,7 +38,7 @@
 | question_id    | INT            | FOREIGN KEY |
 | content        | TEXT           |             |
 
-### SQL-таблиці (DDL)
+## SQL-таблиці (DDL)
 
 ```sql
 CREATE TABLE User (
