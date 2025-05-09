@@ -24,6 +24,8 @@ export default defineConfig({
       { text: 'UseCase', link: '/useCase'},
       { text: 'Бізнес модель та діаграма системи опитування', link: '/business_models'},
       { text: 'Реалізація інформаційного та програмного забезпечення', link: '/SQL' },
+      { text: 'Тестування працездатності системи', link: '/Test' },
+      { text: 'Висновки', link: '/vusnovki' },
       { text: 'Автори', link: '/autors' },
     ],
 
