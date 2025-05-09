@@ -1,5 +1,3 @@
-<img width="211" alt="image" src="https://github.com/user-attachments/assets/7ce8baaa-888d-48a0-8d86-00f713bcc46e" /># Реалізація шаблону DAO для роботи з MySQL у Java
-
 ## 1. Створення бази даних MySQL
 
 Було створено базу даних `test_db` у MySQL для зберігання даних.
