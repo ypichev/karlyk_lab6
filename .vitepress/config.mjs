@@ -23,6 +23,7 @@ export default defineConfig({
       { text: 'Реляційна схема', link: '/relational_schema'},  
       { text: 'UseCase', link: '/useCase'},
       { text: 'Бізнес модель та діаграма системи опитування', link: '/business_models'},
+      { text: 'Реалізація інформаційного та програмного забезпечення', link: '/SQL' },
       { text: 'Автори', link: '/autors' },
     ],
 

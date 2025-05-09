@@ -35,4 +35,4 @@
 5. Кожна відповідь зберігається в таблиці **Answer** — або з `OptionID`, або з `TextAnswer`.
 
 # ER-діаграма
-![ER-діаграма](./images/er_diagram_google_forms.png)
+![ER-діаграма](./images/ER-DIOGRAMA.png)
