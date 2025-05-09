@@ -9,7 +9,7 @@ public class TestDAO {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/test_db";
         String user = "root";
-        String password = "Mclaren#345";
+        String password = "test_pass";
 
         try {
             Connection conn = DriverManager.getConnection(url, user, password);
