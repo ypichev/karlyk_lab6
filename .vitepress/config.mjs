@@ -27,6 +27,7 @@ export default defineConfig({
       { text: 'Тестування працездатності системи', link: '/Test' },
       { text: 'Висновки', link: '/vusnovki' },
       { text: 'Автори', link: '/autors' },
+      {text: 'Реалізація об’єктно-реляційного відображення', link: '/implementation'}
     ],
 
     socialLinks: [
