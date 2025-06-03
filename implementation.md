@@ -248,7 +248,7 @@ ______________________________________________________________
 Found: MashaCode, masha@example.com
 
 ```
-<img width="266" alt="image" src="images/result.jpg" />
+<img width="266" alt="image" src="./images/result.jpg" />
 
 
 ## 8. Висновок
